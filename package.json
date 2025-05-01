@@ -4,7 +4,10 @@
   "description": "[![Build status](https://ci.appveyor.com/api/projects/status/4irb6utigvimfyv3?svg=true)](https://ci.appveyor.com/project/Starina-Lokich/arraybuffer)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
